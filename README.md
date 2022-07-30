@@ -10,6 +10,7 @@ If you want to know about MemProcFS, refer to [MemProcFS](https://github.com/ufr
 
 ## MemProcFS
 - Version: 4.9.3
+- Notes: I have used 64-bits vmm.dll and leechcore.dll
 
 # Examples
 Example2
