@@ -15,3 +15,6 @@ If you want to know about MemProcFS, refer to [MemProcFS](https://github.com/ufr
 # Examples
 Example2
 - Listing processes from memory dump extracted by WinPmem
+
+Example3
+- Extract specified process's minidump file from vfs
