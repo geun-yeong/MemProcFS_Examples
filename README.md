@@ -10,6 +10,7 @@ If you want to know about MemProcFS, refer to [MemProcFS](https://github.com/ufr
 
 ## MemProcFS
 - Version: 4.9.3
+ - These examples cannot work when you use MemProcFS version gt or eq 5.0
 - Notes: I have used 64-bits vmm.dll and leechcore.dll
 
 # Examples
