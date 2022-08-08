@@ -53,9 +53,8 @@ namespace Example3
         [DllImport("vmm.dll", EntryPoint = "VMMDLL_ProcessGetInformation")]
         public static extern unsafe bool VMMDLL_ProcessGetInformation(
             uint dwPID,
-            uint dwPPID,
             ref VMMDLL_PROCESS_INFORMATION pProcessInformation,
-            ref ulong pcbProcessInformation;
+            ref ulong pcbProcessInformation);
 
 
 
@@ -94,7 +93,7 @@ namespace Example3
 
         [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
         public delegate bool VfsCallBack_AddFile(ulong h, [MarshalAs(UnmanagedType.LPUTF8Str)] string wszName, ulong cb, IntPtr pExInfo);
-        
+
         [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
         public delegate bool VfsCallBack_AddDirectory(ulong h, [MarshalAs(UnmanagedType.LPUTF8Str)] string wszName, IntPtr pExInfo);
 
