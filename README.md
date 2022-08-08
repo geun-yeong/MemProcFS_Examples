@@ -18,3 +18,6 @@ Example2
 
 Example3
 - Extract specified process's minidump file from vfs
+
+Example4
+- Get information of PFN about tp (Active, Standby, Free, etc.)

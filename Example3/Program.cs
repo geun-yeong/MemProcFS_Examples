@@ -53,8 +53,9 @@ namespace Example3
         [DllImport("vmm.dll", EntryPoint = "VMMDLL_ProcessGetInformation")]
         public static extern unsafe bool VMMDLL_ProcessGetInformation(
             uint dwPID,
+            uint dwPPID,
             ref VMMDLL_PROCESS_INFORMATION pProcessInformation,
-            ref ulong pcbProcessInformation);
+            ref ulong pcbProcessInformation;
 
 
 
