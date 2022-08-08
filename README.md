@@ -10,6 +10,7 @@ If you want to know about MemProcFS, refer to [MemProcFS](https://github.com/ufr
 
 ## MemProcFS
 - Version: 4.9.3
+ - These examples cannot work when you use MemProcFS version gt or eq 5.0
 - Notes: I have used 64-bits vmm.dll and leechcore.dll
 
 # Examples
@@ -17,7 +18,7 @@ Example2
 - Listing processes from memory dump extracted by WinPmem
 
 Example3
-- Extract specified process's minidump file from vfs
+- Extract specified process's minidump file from vs- Extract specified process's minidump file from vfs
 
 Example4
 - Get information of PFN about tp (Active, Standby, Free, etc.)
